@@ -1,0 +1,65 @@
+﻿div#mycalendar div.mycalendar-header button{
+    border:none;
+    background-color:transparent;
+}
+div#mycalendar {
+    display:table;
+    width: 65%;
+    background-color: silver;
+    text-align:center;
+    margin-top:10%;
+}
+div.mycalendar-header{
+    width:100%;
+    height:50px;
+    padding-top:10px;
+    background-color:gray;
+    color:bisque;
+}
+div.mycalendar-body{
+    width:100%;
+    display:table;
+}
+div.mycalendar-days {
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    background-color: darkgray;
+}
+div.mycalendar-day {
+    float:left;
+    width: 14.28%;
+    color:azure;
+}
+div.mycalendar-week{
+    float:left;
+    width:100%;
+    height:50px;
+    background-color:aliceblue;
+}
+div.numberday {
+    float: left;
+    width: 14.28%;
+    padding-top:15px;
+    height:50px;
+    background-color:antiquewhite;
+    border:1px solid black;
+    font-weight:bolder;
+    color:lightslategray;
+}
+div.pasif {
+    background-color: #ded7cd;
+    color: #706d6a;
+}
+div.numberday:hover{
+    background-color:aliceblue;
+    color:black;
+}
+div.today{
+    background-color:darkgray;
+    color:azure;
+}
+div.today:hover{
+    background-color:gray;
+    color:palegreen;
+}
